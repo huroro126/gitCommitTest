@@ -19,5 +19,10 @@ public class TestController {
         return "test/index";
     }
 
+    @RequestMapping(value = "/index4")
+    public String index4(){
+        return "test/index";
+    }
+
 }
 
